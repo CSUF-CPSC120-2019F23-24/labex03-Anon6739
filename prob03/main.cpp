@@ -15,7 +15,7 @@ int main()
   inches = height_in_inches%12;
 
   //Person's height in feet
-  std::cout << "That person is " << feet <<"\'" << inches <<"\"";
+  std::cout << "That person is " << feet <<"\'" << inches <<"\"" << std::endl;
 
   return 0;
 }
